@@ -1,0 +1,43 @@
+html {
+    background-color: #272a5e;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#head-intro {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+#top-page-container {
+    margin: 20px 50px;
+    padding: 0px;
+    border: 15px solid #f0eeee;
+    border-radius: 50px;
+    box-shadow: 0 0 9px 6px rgba(255, 255, 255, 0.5);
+    animation: shadow-movement 2s linear infinite;
+}
+
+@keyframes shadow-movement {
+    0% {
+        box-shadow: 0 0 13px 6px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 18px 10px rgba(255, 255, 255, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 13px 6px rgba(255, 255, 255, 0.3);
+    }
+}
