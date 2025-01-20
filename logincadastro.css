@@ -25,14 +25,14 @@ h2 {
 }
 
 #login-section {
-    background: linear-gradient(-90deg, rgb(110, 1, 110), rgb(138, 0, 0)); /* linear-gradient(135deg, #4caf50, #81c784) */
+    background: linear-gradient(-90deg, black   , #2c3440); /* linear-gradient(135deg, #4caf50, #81c784) */
     left: 0;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
     z-index: 1;
 }
 
 #register-section {
-    background: linear-gradient(90deg, rgb(110, 1, 110), black); /* linear-gradient(135deg, #2196f3, #64b5f6); */
+    background: linear-gradient(90deg, black, #2c3440); /* linear-gradient(135deg, #2196f3, #64b5f6); */
     right: 0;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
 }

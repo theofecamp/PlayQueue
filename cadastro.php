@@ -1,22 +1,10 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="createAccount-login.css">
-    <title>Cadastro</title>
-</head>
-<body>
-    <div id="separation"></div>
-</body>
-</html>-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login-cadastro.css">
+    <link rel="stylesheet" href="logincadastro.css">
     <title>Cadastro e Login</title>
 </head>
 <body>

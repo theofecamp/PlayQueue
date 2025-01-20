@@ -11,10 +11,17 @@
 </head>
 <body>
     <header>
-        <div id="top-page-container">
-            <h1 id="head-intro">PlayQueue - Organize your past and future games</h1>
-        </div>
+        <nav>
+            <div id="top-page-logo">
+                <h1 id="head-intro">PlayQueue</h1>
+            </div>
+        </nav>
+        <a href="cadastro.php"><div id="entrar" class="nav-options">
+                <p>Entrar</p>
+        </div></a>
+        <a href="cadastro.php"><div id="cadastrar" class="nav-options">
+                <p>Cadastrar</p>
+        </div></a>
     </header>
-    <a href="cadastro.php" id="cadastro">Link para cadastro (temporário)</a>
 </body>
 </html>
