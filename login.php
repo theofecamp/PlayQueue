@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cadastro-s.css">
-    <title>cadastro</title>
+    <link rel="stylesheet" href="login-s.css">
+    <title>Login</title>
 </head>
 <body>
-        <section id="register-section">
-            <h2>Cadastro</h2>
+        <section id="login-section">
+            <h2>Login</h2>
             <form>
                 <label for="register-username">NOME DE USUÁRIO</label>
                 <input type="text" id="register-username" name="username" required>
@@ -20,10 +20,7 @@
                 <label for="register-password">SENHA</label>
                 <input type="password" id="register-password" name="password" required>
                 
-                <label for="confirm-password">CONFIRMAR SENHA</label>
-                <input type="password" id="confirm-password" name="confirm_password" required>
-                
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Entrar</button>
             </form>
         </section>
 </body>

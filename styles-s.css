@@ -1,0 +1,139 @@
+@import url("https://fonts.cdnfonts.com/css/azonix");
+
+@import url('https://fonts.cdnfonts.com/css/coco-gothic');
+/* font-family: 'Coco Gothic', sans-serif; font-family: 'Coco Gothic Alternate', sans-serif; */
+
+@font-face {
+    font-family: "Kelpt Sans B2 Extra Bold";
+    src: url("./fonts/kelpt-sansB2/KelptSansB2-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Sharp-grotesk Bold 20";
+    src: url("./fonts/sharp_grotesk/Sharp_Grotesk/SharpGrotesk-Bold20.otf");
+}
+
+@font-face {
+    font-family: "Sharp-grotesk Bold 15";
+    src: url("./fonts/sharp_grotesk/Sharp_Grotesk/SharpGrotesk-Bold15.otf");
+}
+
+html {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+    background-color: #2c3440; 
+}
+#top-page-logo > h1 {
+    font-family: 'Sharp-grotesk Bold 20';
+    margin-right: 75%;
+    font-size: 35px;
+    top: 1%;
+    position: absolute;
+    left: 8%;
+    text-shadow: 4px 4px 8px black;
+}
+
+header {
+    background-color: #1c2129;
+    width: 100%;
+    padding: 60px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height:18%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+#head-intro {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    background-color: aliceblue;
+}
+
+.nav-options {
+    margin-left: 75%;
+    position: absolute;
+}
+
+#entrar {
+    color: black;
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    border: white solid 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 35px;
+    left: 3%;
+    background-color: white;
+    border-radius: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+#cadastrar {
+    color: black;
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    border: white solid 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-right: 30px;
+    top: 35px;
+    left: 12%;
+    background-color: white;
+    border-radius: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+#entrar > p {
+    margin: 10px;
+}
+
+#cadastrar > p {
+    margin: 10px;
+}
+
+#entrar:hover {
+    cursor: pointer;
+    box-shadow: 0 0 9px 6px black;
+    animation: shadow-movement 2s linear infinite;
+}
+
+#cadastrar:hover {
+    cursor: pointer;
+    box-shadow: 0 0 9px 6px black;
+    animation: shadow-movement 2s linear infinite;
+}
+
+@keyframes shadow-movement {
+    0% {
+        box-shadow: 0 0 13px 1px white;
+    }
+    50% {
+        box-shadow: 0 0 18px 2px rgb(148, 148, 148);
+    }
+    100% {
+        box-shadow: 0 0 13px 1px white;
+    }
+}
+#cadastro {
+    color: #fff;
+    text-decoration: none;
+}
