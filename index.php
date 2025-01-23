@@ -12,9 +12,9 @@
 <body>
     <header>
         <nav>
-            <div id="top-page-logo">
-                <h1 id="head-intro">PlayQueue</h1>
-            </div>
+        <div id="top-page-logo">
+            <h1 id="head-intro">PlayQueue</h1>
+        </div>
         <a href="login.php"><div id="entrar" class="nav-options">
                 <p>Entrar</p>
         </div></a>
