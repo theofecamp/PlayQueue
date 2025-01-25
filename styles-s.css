@@ -106,12 +106,62 @@ nav {
 
 }
 
+#jogos-destaque-h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    top: 35px;
+    left: -9%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+}
+
+#jogos-destaque-h2 > h2 {
+    margin: 10px;
+    background-color: #1c2129;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+}
+
+#creditos {
+    color: black;
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -10px;
+    top: 35px;
+    left: -9%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: white solid 1px;
+    border-radius: 32px;
+}
+
 #entrar > p {
     margin: 10px;
 }
 
 #cadastrar > p {
     margin: 10px;
+}
+
+#creditos > p {
+    margin: 10px;
+}
+
+#creditos:hover {
+    cursor: pointer;
+    box-shadow: 0 0 9px 6px black;
+    animation: shadow-movement 2s linear infinite;
 }
 
 #entrar:hover {
@@ -126,13 +176,7 @@ nav {
     animation: shadow-movement 2s linear infinite;
 }
 
-#jogos-destaque-h2 {
-    font-family: 'Sharp-grotesk Bold 20';
-    font-size: 30px;
-    text-shadow: 4px 4px 8px black;
-    color:#ebebeb;
-    padding-left: 40px;
-}
+
 #destaque-row::after {
     background-color: #1c2129;
     width: 150vh;
@@ -183,14 +227,6 @@ nav {
     animation: shadow-movement 2s linear infinite;
 }
 
-#lançamentos-h2 {
-    font-family: 'Sharp-grotesk Bold 20';
-    font-size: 30px;
-    text-shadow: 4px 4px 8px black;
-    color:#ebebeb;
-    padding-left: 40px;
-    margin-top: 600px;
-}
 #lançamentos-row::after {
     background-color: #1c2129;
     width: 150vh;
@@ -217,6 +253,29 @@ nav {
     position: relative;
     left: 15%;
     display: flex;
+}
+
+#lançamentos-h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 600px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+}
+
+#lançamentos-h2 > h2 {
+    margin: 10px;
+    background-color: #1c2129;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
 }
 
 @keyframes shadow-movement {
