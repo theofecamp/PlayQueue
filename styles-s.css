@@ -158,6 +158,7 @@ nav {
     z-index: 1;
     position: relative;
     left: 15%;
+    display: flex;
 }
 
 
@@ -169,23 +170,54 @@ nav {
 
 }
 
-.jogo, .add-lista {
-
+.jogo {
     top: 100px;
-    
 }
+
+.jogo:active {
+    animation: shadow-movement 2s linear infinite;
+}
+
 
 .jogo:hover {
-    opacity: 0.5;
+    animation: shadow-movement 2s linear infinite;
 }
 
-.add-lista {
-    z-index: 3;
+#lançamentos-h2 {
+    font-family: 'Sharp-grotesk Bold 20';
+    font-size: 30px;
+    text-shadow: 4px 4px 8px black;
+    color:#ebebeb;
+    padding-left: 40px;
+    margin-top: 600px;
+}
+#lançamentos-row::after {
+    background-color: #1c2129;
+    width: 150vh;
+    height: 45vh;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 16px;
+    content: "";
+    clear: both;
+    display: table;
     position: absolute;
+    left: 10%;
+    margin-left: 2%;
+
 }
 
-
-
+.lançamentos-column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    left: 15%;
+    display: flex;
+}
 
 @keyframes shadow-movement {
     0% {
@@ -197,6 +229,7 @@ nav {
     100% {
         box-shadow: 0 0 13px 1px white;
     }
+    
 }
 #cadastro {
     color: #fff;

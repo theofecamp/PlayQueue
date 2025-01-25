@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayQueue</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-s.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -26,21 +26,41 @@
     <div id="jogos-destaque-h2"><h2>Jogos em Destaque:</h2></div>
     <div id="destaque-row">
         <div class="destaque-column">
-            <img src="imgs/spider2.avif" class="jogo" class="spider2">
-            <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" class="add-lista">
+            <img src="imgs/spider2.avif" class="jogo" draggable="true" class="spider2">
+
         </div>
         <div class="destaque-column">
-            <img src="imgs/gow.webp" class="jogo" class="gow">
-            <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" class="add-lista">
+            <img src="imgs/gow.webp" class="jogo" draggable="true"  class="gow">
+
         </div>
         <div class="destaque-column">
-            <img src="imgs/ratchet.avif" class="jogo" class="gow">
-            <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" class="add-lista">
+            <img src="imgs/ratchet.avif" class="jogo" draggable="true"  class="ratchet">
+
         </div>
         <div class="destaque-column">
-            <img src="imgs/horizon.avif" class="jogo" class="gow">
-            <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" class="add-lista">
+            <img src="imgs/horizon.avif" class="jogo" draggable="true"  class="horizon">
+
         </div>
     </div>
+    <div id="lançamentos-h2"><h2>Lançamentos:</h2></div>
+    <div id="lançamentos-row">
+        <div class="lançamentos-column">
+            <img src="imgs/doomE.avif" class="jogo" draggable="true" class="spider2">
+
+        </div>
+        <div class="lançamentos-column">
+            <img src="imgs/fifa25.avif" class="jogo" draggable="true"  class="gow">
+
+        </div>
+        <div class="lançamentos-column">
+            <img src="imgs/nba25.avif" class="jogo" draggable="true"  class="ratchet">
+
+        </div>
+        <div class="lançamentos-column">
+            <img src="imgs/bf42.f98212b5-9c47-475e-a5bf-3530608585ca" class="jogo" draggable="true"  class="horizon">
+
+        </div>
+    </div>
+    <script src="dragAndDrop.js"></script>
 </body>
 </html>
