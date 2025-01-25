@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>
+        <img src="imgs/Joystick-Manete.png" alt="">
         <nav>
         <div id="top-page-logo">
             <h1 id="head-intro">PlayQueue</h1>
