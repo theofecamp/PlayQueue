@@ -137,3 +137,11 @@ nav {
     color: #fff;
     text-decoration: none;
 }
+
+img {
+    width: 57.6px;
+    height: 50px;
+    top: 33.5px;
+    left: 23%;
+    position: absolute; 
+}
