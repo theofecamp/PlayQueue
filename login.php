@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="index.php"> <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""> </a>
+        <a href="index.html"> <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""> </a>
         <nav>
             <div id="top-page-logo">
                 <h1 id="head-intro">PlayQueue</h1>
