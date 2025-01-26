@@ -7,7 +7,9 @@
 
         die($description);
     }
+
     include("cadastro.html");
+    
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['nome_usuario'];
         $email = $_POST['email'];

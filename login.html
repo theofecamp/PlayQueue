@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastro</title>
+    <title>Login</title>
 </head>
 <body>
     <header>
-        <a href="index.html"> <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""> </a>
+        <a href="index.php"> <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""> </a>
         <nav>
             <div id="top-page-logo">
                 <h1 id="head-intro">PlayQueue</h1>
             </div>
         </nav>
     </header>
-        <section id="register-section">
-            <h2>Cadastro</h2>
-            <form action="cadastro.php" method="POST">
+        <section id="login-section">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
                 <label for="nome_usuario">NOME DE USUÁRIO</label>
                 <input type="text" id="register-username" name="nome_usuario" required>
                 
@@ -27,10 +27,7 @@
                 <label for="senha">SENHA</label>
                 <input type="password" id="register-password" name="senha" required>
                 
-                <label for="senha-confirma">CONFIRMAR SENHA</label>
-                <input type="password" id="confirm-password" name="senha-confirma" required>
-                
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Entrar</button>
             </form>
         </section>
 </body>
