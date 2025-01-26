@@ -24,15 +24,9 @@ for(let star of stars){
    });
 }
  
-if(localStorage.getItem("rating")){
-   ratings = JSON.parse(localStorage.getItem("rating"));
-   for(let rating of ratings){
-      for(let product of products){
-         if(product.dataset.productid == rating["product-id"]){
-            let reverse = Array.from(product.children).reverse();
-            let index = parseInt(rating["rating"]) - 1;
-            reverse[index].setAttribute("data-clicked", "true");
-         }
-      }
-   }
-}
+document.getElementById("reset-btn").addEventListener("click", (event) => {
+    event.preventDefault(); // Impede o comportamento padrão do link
+    localStorage.removeItem("rating"); // Remove o item do localStorage
+    // Aqui você pode adicionar lógica para atualizar a interface manualmente
+    alert("Ratings resetados!");
+});

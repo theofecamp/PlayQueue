@@ -135,8 +135,17 @@
         <div id="exit-list">
             <a>×</a>
         </div>
+        <div class="dropdown">
+            <button>Plataforma</button>
+            <div class="content">
+                <a href="">PC</a>
+                <a href="">Xbox</a>
+                <a href="">Playstation</a>
+                <a href="">Nintendo</a>
+            </div>    
+        </div>
         <div>
-            <a onclick="localStorage.removeItem('rating'); location.reload();" class="reset">↻</a>
+            <a href="#" id="reset-btn" class="reset">↻</a>
         </div>
         <form action="review.php" method="POST">
             <div data-productid="39" class="ratings">
@@ -149,7 +158,17 @@
             <div>
                 <input placeholder="Escreva sua review aqui..." id="review" type="text">
             </div>
+            <button id="review-save-button">Salvar review</button>
         </form>
+        <div class="dropdown">
+            <button>Plataforma</button>
+            <div class="content">
+                <a href="">PC</a>
+                <a href="">Xbox</a>
+                <a href="">Playstation</a>
+                <a href="">Nintendo</a>
+            </div>    
+        </div>
     </div>
     <div id="dark-overlay"></div>
     <script src="darkOverlay.js"></script>
