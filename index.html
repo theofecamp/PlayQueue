@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayQueue</title>
-    <link rel="stylesheet" href="styles-s.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
     </header>
     <div id="jogos-destaque-h2"><h2>Jogos em Destaque:</h2></div>
     <div id="destaque-row">
-        <div onclick=spiderWindowOpen() class="destaque-column" class="spider2">
+        <div class="destaque-column" class="spider2">
             <div class="overlay-game overlay-spider">
                 <p class="text-game">Marvel's spider-man 2</p>
             </div>
@@ -151,8 +151,10 @@
             </div>
         </form>
     </div>
+    <div id="dark-overlay"></div>
+    <script src="darkOverlay.js"></script>
     <script src="listWindowOpen.js"></script>
     <script src="ratingSystem.js"></script>
-    <script src="exitList.js"></script>
+    <script src="open&closeList.js"></script>
 </body>
 </html>

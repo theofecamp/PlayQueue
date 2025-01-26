@@ -215,6 +215,7 @@ nav {
     border-radius: 16px;
     position: absolute;
     z-index: 5;
+    cursor: pointer;
 }
 
 .jogo {
@@ -568,12 +569,12 @@ nav {
 
 .listWindowOpen {
 
-    display: flex;
+    display: none;
     height: 70vh;
     width: 60vh;
     background-color: #1c2129;
     position: fixed;
-    z-index: 100000;
+    z-index: 1000;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -672,4 +673,29 @@ nav {
     padding-right: 10px;
     border-radius: 10px;
     
+}
+
+#dark-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.listWindowOpen {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+}
+
+.listWindowOpen.visible {
+    display: flex;
+    opacity: 1;
 }
