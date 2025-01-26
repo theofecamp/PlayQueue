@@ -102,13 +102,13 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(90deg, black, #2c3440); /* Linear gradient */
+    background: linear-gradient(90deg, #1c2129, #2c3440); /* Linear gradient */
 }
 
 
 
 #register-section {
-    background: linear-gradient(90deg, black, #2c3440); /* linear-gradient(135deg, #2196f3, #64b5f6); */
+    background: linear-gradient(90deg, #1c2129, #2c3440); /* linear-gradient(135deg, #2196f3, #64b5f6); */
     right: 0;
 }
 
