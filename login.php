@@ -2,7 +2,6 @@
     $db = mysqli_connect("localhost", "root", "", "playqueue");
     $db->set_charset("utf8");
 
-    
     if (!$db) {
         $description = "Erro: " . mysqli_connect_error(); 
 
@@ -32,20 +31,7 @@
         if (!password_verify($password, $hashed_password))
             die("<p>Falha ao entrar. Nome de usuário, e-mail ou senha incorretos</p>");
         
-        #$sql_get_user = "SELECT * FROM cadastro WHERE
-        #nome_usuario = '$username' AND email = '$email'
-        #AND senha = " . ;
-
-        #$sql_get_user_query = mysqli_query($db, $sql_get_user) or die("Falha ao executar o código SQL: " . mysqli_error());
-
-        #$amount_lines = $sql_get_user_query->num_rows;
-
-        #if ($amount_lines == 0) {
-        #    echo "<p>Falha ao entrar. Nome de usuário, e-mail ou senha incorretos</p>";
-        #    exit;
-        #}
-
-        #$user = $sql_get_user_query->fetch_assoc();
+        
 
         if (!isset($_SESSION))
             session_start();
@@ -56,4 +42,3 @@
         exit;
     }
 ?>
->>>>>>> Stashed changes
