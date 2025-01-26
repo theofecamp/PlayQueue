@@ -206,3 +206,7 @@ button {
 button:hover {
     background-color: #ddd;
 }
+
+form input, form label, form button {
+    z-index: 10;
+}
