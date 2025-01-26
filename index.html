@@ -27,7 +27,7 @@
     </header>
     <div id="jogos-destaque-h2"><h2>Jogos em Destaque:</h2></div>
     <div id="destaque-row">
-        <div class="destaque-column" class="spider2">
+        <div onclick=spiderWindowOpen() class="destaque-column" class="spider2">
             <div class="overlay-game overlay-spider">
                 <p class="text-game">Marvel's spider-man 2</p>
             </div>
@@ -56,7 +56,6 @@
             <img src="imgs/horizon.avif" class="jogo" draggable="true">
 
         </div>
-        
     </div>
     <div id="lançamentos-h2"><h2>Lançamentos:</h2></div>
     <div id="lançamentos-row">
@@ -130,6 +129,30 @@
         </div>
 
     </div>
-    <script src="dragAndDrop.js"></script>
+
+
+    <div class="listWindowOpen">
+        <div id="exit-list">
+            <a>×</a>
+        </div>
+        <div>
+            <a onclick="localStorage.removeItem('rating'); location.reload();" class="reset">↻</a>
+        </div>
+        <form action="review.php" method="POST">
+            <div data-productid="39" class="ratings">
+                <span data-rating="5">★</span>
+                <span data-rating="4">★</span>
+                <span data-rating="3">★</span>
+                <span data-rating="2">★</span>
+                <span data-rating="1">★</span>
+            </div>
+            <div>
+                <input placeholder="Escreva sua review aqui..." id="review" type="text">
+            </div>
+        </form>
+    </div>
+    <script src="listWindowOpen.js"></script>
+    <script src="ratingSystem.js"></script>
+    <script src="exitList.js"></script>
 </body>
 </html>
