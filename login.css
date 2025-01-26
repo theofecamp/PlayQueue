@@ -88,14 +88,18 @@ body {
     font-weight: 600;
 }
 
-#top-page-logo > h1 {
-    font-family: 'Sharp-grotesk Bold 20';
+#top-page-logo {
     margin-right: 75%;
-    font-size: 35px;
-    top: 4%;
+    top: -1%;
     position: absolute;
-    left: 8%;
-    text-shadow: 4px 4px 8px black;
+    left: 3%;
+}
+#top-page-logo > img {
+    height: 90px;
+    width: 250px;
+    position: absolute;
+    top: 35px;
+    left: 80px;
 }
 
 nav {

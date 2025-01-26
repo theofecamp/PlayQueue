@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayQueue</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-s.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -27,41 +27,108 @@
     </header>
     <div id="jogos-destaque-h2"><h2>Jogos em Destaque:</h2></div>
     <div id="destaque-row">
-        <div class="destaque-column">
-            <img src="imgs/spider2.avif" class="jogo" draggable="true" class="spider2">
+        <div class="destaque-column" class="spider2">
+            <div class="overlay-game overlay-spider">
+                <p class="text-game">Marvel's spider-man 2</p>
+            </div>
+            <img src="imgs/spider2.avif" class="jogo" draggable="true">
 
         </div>
-        <div class="destaque-column">
-            <img src="imgs/gow.webp" class="jogo" draggable="true"  class="gow">
+        <div class="destaque-column" class="gow">
+            <div class="overlay-game overlay-gow">
+                <p class="text-game">God of War: Ragnarok</p>
+            </div>
+            <img src="imgs/gow.webp" class="jogo" draggable="true">
 
         </div>
-        <div class="destaque-column">
-            <img src="imgs/ratchet.avif" class="jogo" draggable="true"  class="ratchet">
+        <div class="destaque-column" class="ratchet">
+            <div class="overlay-game overlay-ratchet">
+                <p class="text-game">Ratchet & Clank: em outra dimensão
+                </p>
+            </div>
+            <img src="imgs/ratchet.avif" class="jogo" draggable="true">
 
         </div>
-        <div class="destaque-column">
-            <img src="imgs/horizon.avif" class="jogo" draggable="true"  class="horizon">
+        <div class="destaque-column"  class="horizon">
+            <div class="overlay-game overlay-horizon">
+                <p class="text-game">Horizon: Zero Dawn</p>
+            </div>
+            <img src="imgs/horizon.avif" class="jogo" draggable="true">
 
         </div>
+        
     </div>
     <div id="lançamentos-h2"><h2>Lançamentos:</h2></div>
     <div id="lançamentos-row">
-        <div class="lançamentos-column">
-            <img src="imgs/doomE.avif" class="jogo" draggable="true" class="spider2">
+        <div class="lançamentos-column" class="">
+            <div class="overlay-game overlay-doom">
+                <p class="text-game">Doom: Eternal
+                </p>
+            </div>
+            <img src="imgs/doomE.avif" class="jogo" draggable="true">
 
         </div>
-        <div class="lançamentos-column">
-            <img src="imgs/fifa25.avif" class="jogo" draggable="true"  class="gow">
+        <div class="lançamentos-column"  class="">
+            <div class="overlay-game overlay-fc25">
+                <p class="text-game">FC 2025
+                </p>
+            </div>
+            <img src="imgs/fifa25.avif" class="jogo" draggable="true">
 
         </div>
-        <div class="lançamentos-column">
-            <img src="imgs/nba25.avif" class="jogo" draggable="true"  class="ratchet">
+        <div class="lançamentos-column" class="">
+            <div class="overlay-game overlay-nba25">
+                <p class="text-game">NBA 2k25
+                </p>
+            </div>
+            <img src="imgs/nba25.avif" class="jogo" draggable="true"  >
 
         </div>
-        <div class="lançamentos-column">
-            <img src="imgs/bf42.f98212b5-9c47-475e-a5bf-3530608585ca" class="jogo" draggable="true"  class="horizon">
+        <div class="lançamentos-column" class="">
+            <div class="overlay-game overlay-bf42">
+                <p class="text-game">Battlefield: 2042
+                </p>
+            </div>
+            <img src="imgs/bf42.f98212b5-9c47-475e-a5bf-3530608585ca" class="jogo" draggable="true"  >
 
         </div>
+
+    </div>
+    <div id="bem-avaliados-h2"><h2>Bem avaliados:</h2></div>
+    <div id="bem-avaliados-row">
+        <div class="bem-avaliados-column" class="">
+            <div class="overlay-game overlay-rdd">
+                <p class="text-game">Red Dead Redemption
+                </p>
+            </div>
+            <img src="imgs/rdd.avif" class="jogo" draggable="true">
+
+        </div>
+        <div class="bem-avaliados-column" class="">
+            <div class="overlay-game overlay-hlm">
+                <p class="text-game">Hotline Miami
+                </p>
+            </div>
+            <img src="imgs/hlm.avif" class="jogo" draggable="true">
+
+        </div>
+        <div class="bem-avaliados-column" class="">
+            <div class="overlay-game overlay-fnaf">
+                <p class="text-game">FNaF: Into The Pit
+                </p>
+            </div>
+            <img src="imgs/fnafitp.avif" class="jogo" draggable="true">
+
+        </div>
+        <div class="bem-avaliados-column" class="">
+            <div class="overlay-game overlay-p3r">
+                <p class="text-game">Persona 3 Reload
+                </p>
+            </div>
+            <img src="imgs/p3r.avif" class="jogo" draggable="true">
+
+        </div>
+
     </div>
     <script src="dragAndDrop.js"></script>
 </body>

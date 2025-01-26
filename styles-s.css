@@ -211,7 +211,6 @@ nav {
     border-radius: 16px;
     position: absolute;
     z-index: 5;
-
 }
 
 .jogo {
@@ -277,6 +276,270 @@ nav {
     padding-bottom: 10px;
     border-radius: 16px;
 }
+
+#bem-avaliados-row::after {
+    background-color: #1c2129;
+    width: 150vh;
+    height: 45vh;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 16px;
+    content: "";
+    clear: both;
+    display: table;
+    position: absolute;
+    left: 10%;
+    margin-left: 2%;
+
+}
+
+.bem-avaliados-column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    left: 15%;
+    display: flex;
+}
+
+#bem-avaliados-h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 600px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+}
+
+#bem-avaliados-h2 > h2 {
+    margin: 10px;
+    background-color: #1c2129;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+}
+
+.destaque-column:hover .overlay-game {
+    opacity: 1;
+}
+
+.overlay-spider {
+
+    position: absolute;
+    left: 27px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+.overlay-ratchet {
+
+    position: absolute;
+    left: -22px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+.overlay-gow {
+
+    position: absolute;
+    left: 28px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+.overlay-horizon {
+
+    position: absolute;
+    left: 35px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+.lançamentos-column:hover .overlay-game {
+    opacity: 1;
+}
+
+.overlay-doom {
+
+    position: absolute;
+    left: 54px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+.overlay-fc25 {
+
+    position: absolute;
+    left: 74px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+.overlay-nba25 {
+
+    position: absolute;
+    left: 70px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+.overlay-bf42 {
+
+    position: absolute;
+    left: 43px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+.bem-avaliados-column:hover .overlay-game {
+    opacity: 1;
+}
+
+.overlay-rdd {
+
+    position: absolute;
+    left: 28px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+.overlay-hlm {
+
+    position: absolute;
+    left: 55px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+.overlay-fnaf {
+
+    position: absolute;
+    left: 44px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+.overlay-p3r {
+
+    position: absolute;
+    left: 44px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 16px; 
+    z-index: 10; 
+
+}
+
+
+.overlay-game .text-game {
+    color: white;
+    font-size: 20px;
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+
+
+
 
 @keyframes shadow-movement {
     0% {

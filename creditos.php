@@ -11,7 +11,7 @@
         <a href="index.html"> <img src="imgs/arrow_back_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""> </a>
         <nav>
             <div id="top-page-logo">
-                <h1 id="head-intro">PlayQueue</h1>
+                <img src="imgs/imagem_2025-01-25_163137945-removebg-preview.png" alt="">
             </div>
         </nav>
     </header>
