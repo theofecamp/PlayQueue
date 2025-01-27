@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="creditos.css">
+    <link rel="stylesheet" href="creditos-s.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Créditos</title>
 </head>
 <body>
@@ -17,31 +18,54 @@
     </header>
     <main class="montserrat pag-creditos">
         <section id="grid-main">
-            <div class="grid-cred">
+            <div class="grid-cred" onmouseover=showAndre() onmouseout=hideAndre()>
                 <img src="imgs/andre.jpg" alt="">
                 <div>
                     <h2>André Luiz de Castro Reis</h2>
                 </div>
             </div>
-            <div class="grid-cred">
+            <section id="funcoes-andre" class="pop-up" onmouseover=showAndre() onmouseout=hideAndre()>
+                <ul>
+                    <li>Responsável pelo front-end das páginas de login, cadastro, home e créditos.</li>
+                </ul>
+            </section>
+            <div class="grid-cred" onmouseover=showTheo() onmouseout=hideTheo()>
                 <img src="imgs/theo.jpg" alt="">
                 <div>
-                    <h2>Théo Fernandes Campos</h2>
+                    <h2>Théo Fernandes Campos Silveira</h2>
                 </div>
             </div>
-            <div class="grid-cred">
+            <section id="funcoes-theo" class="pop-up" onmouseover=showTheo() onmouseout=hideTheo()>
+                <ul>
+                    <li>Responsável pelos sistemas de login e cadastro;</li>
+                    <li>Responsável pelo Javascript da página de créditos.</li>
+                </ul>
+            </section>
+            <div class="grid-cred" onmouseover=showWesley() onmouseout=hideWesley()>
                 <img src="" alt="">
                 <div>
                     <h2>Wesley</h2>
                 </div>
             </div>
-            <div class="grid-cred">
-                <img src=""" alt="">
+            <section id="funcoes-wesley" class="pop-up" onmouseover=showWesley() onmouseout=hideWesley()>
+                <ul>
+                    <li>TESTE TEMPORARIO</li>
+                </ul>
+            </section>
+            <div class="grid-cred" onmouseover=showVitoria() onmouseout=hideVitoria()>
+                <img src="" alt="">
                 <div>
                     <h2>Vitória</h2>
                 </div>
             </div>
+            <section id="funcoes-vitoria" class="pop-up" onmouseover=showVitoria() onmouseout=hideVitoria()>
+                <ul>
+                    <li>TESTE TEMPORARIO</li>
+                </ul>
+            </section>
         </section>
     </main>
+
+    <script src="creditosPopUp.js"></script>
 </body>
 </html>

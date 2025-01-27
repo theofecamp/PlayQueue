@@ -102,3 +102,41 @@ main {
     color: #555;
 }
 
+.pop-up {
+    position: absolute;
+    background-color: #555;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    animation: showFunctions 0.3s ease-in 0s forwards;
+}
+
+@keyframes showFunctions {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#funcoes-andre {
+    width: 380px;
+    transform: translateX(520px) translateY(15px);
+}
+
+#funcoes-theo {
+    width: 380px;
+    transform: translateX(520px) translateY(125px);
+}
+
+#funcoes-wesley {
+    width: 380px;
+    transform: translateX(520px) translateY(250px);
+}
+
+#funcoes-vitoria {
+    width: 380px;
+    transform: translateX(520px) translateY(475px);
+}
+
+.pop-up > ul {
+    list-style-type: none;
+}
