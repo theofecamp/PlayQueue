@@ -25,14 +25,34 @@
             <p>Créditos</p>
         </div></a>
     </header>
+    <nav id="navbar">
+        <ul>
+            <a href="#bem-avaliados-row">Jogos bem avaliados</a>
+            <a href="#acao-aventura-row">Jogos de ação e aventura</a>
+            <a href="#turno-row">Jogos de turno</a>
+            <a href="#fps-row">Jogos FPS (First Person Shooters)</a>
+            <a href="#tps-row">Jogos TPS (Third Person Shooters)</a>
+            <a href="#hack-n-slash-row">Jogos Hack 'N Slash</a>
+            <a href="#puzzle-row">Jogos de Puzzle</a>
+            <a href="#plataforma-row">Jogos de Plataforma</a>
+            <a href="#metroidvania-row">Jogos Metroidvania</a>
+            <a href="#roguelike-row">Jogos Roguelike</a>
+            <a href="#soulslike-row">Jogos Soulslike</a>
+        </ul>
+    </nav>
     <div id="jogos-destaque-h2"><h2>Jogos em Destaque:</h2></div>
-    <div id="destaque-row">
+    <div class="categorias">
         <div class="destaque-column" class="spider2">
             <div class="overlay-game overlay-spider">
                 <p class="text-game">Marvel's spider-man 2</p>
             </div>
             <img src="imgs/spider2.avif" class="jogo" draggable="true">
-
+            <h1 class="open-review">+</h1>
+            <!--<button class="open-review">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/>
+                </svg>
+            </button>-->
         </div>
         <div class="destaque-column" class="gow">
             <div class="overlay-game overlay-gow">
@@ -58,7 +78,7 @@
         </div>
     </div>
     <div id="lançamentos-h2"><h2>Lançamentos:</h2></div>
-    <div id="lançamentos-row">
+    <div class="categorias">
         <div class="lançamentos-column" class="">
             <div class="overlay-game overlay-doom">
                 <p class="text-game">Doom: Eternal
@@ -94,7 +114,7 @@
 
     </div>
     <div id="bem-avaliados-h2"><h2>Bem avaliados:</h2></div>
-    <div id="bem-avaliados-row">
+    <div class="categorias" id="bem-avaliados-row">
         <div class="bem-avaliados-column" class="">
             <div class="overlay-game overlay-rdd">
                 <p class="text-game">Red Dead Redemption
@@ -125,12 +145,48 @@
                 </p>
             </div>
             <img src="imgs/p3r.avif" class="jogo" draggable="true">
-
         </div>
+    </div>
+    <div id="acao-aventura-h2"><h2>Ação e Aventura:</h2></div>
+    <div id="acao-aventura-row">
+        
+    </div>
+    <div id="turno-h2"><h2>Jogos de Turno:</h2></div>
+    <div id="turno-row">
 
     </div>
+    <div id="fps-h2"><h2>Tiro em Primeira Pessoa:</h2></div>
+    <div id="fps-row">
 
+    </div>
+    <div id="tps-h2"><h2>Tiro em Terceira Pessoa:</h2></div>
+    <div id="tps-row">
 
+    </div>
+    <div id="hack-n-slash-h2"><h2>Hack N' Slashes:</h2></div>
+    <div id="hack-n-slash-row">
+
+    </div>
+    <div id="puzzle-h2"><h2>Puzzle:</h2></div>
+    <div id="puzzle-row">
+
+    </div>
+    <div id="plataforma-h2"><h2>Plataforma:</h2></div>
+    <div id="plataforma-row">
+
+    </div>
+    <div id="metroidvania-h2"><h2>Metroidvania:</h2></div>
+    <div id="metroidvania-row">
+
+    </div>
+    <div id="roguelike-h2"><h2>Roguelike:</h2></div>
+    <div id="roguelike-row">
+
+    </div>
+    <div id="soulslike-h2"><h2>Soulslike:</h2></div>
+    <div id="soulslike-row">
+
+    </div>
     <div class="listWindowOpen">
         <div id="exit-list">
             <a>×</a>
@@ -163,10 +219,10 @@
         <div class="dropdown">
             <button>Plataforma</button>
             <div class="content">
-                <a href="">PC</a>
-                <a href="">Xbox</a>
-                <a href="">Playstation</a>
-                <a href="">Nintendo</a>
+                <button>PC</button>
+                <button>Xbox</button>
+                <button>Playstation</button>
+                <button>Nintendo</button>
             </div>    
         </div>
     </div>
