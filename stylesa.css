@@ -149,6 +149,7 @@ nav {
     margin-left: 2%;
 }
 
+
 .destaque-column {
     float: left;
     width: 19%;
@@ -242,6 +243,75 @@ nav {
     border-radius: 16px;
 }
 
+.acao-aventura-column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    left: 14.5%;
+    display: flex;
+}
+
+#acao-aventura-h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 540px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+}
+
+#acao-aventura-h2>h2 {
+    margin: 10px;
+    background-color: #1c2129;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+}
+
+.soulslike-column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    left: 14.5%;
+    display: flex;
+}
+
+#soulslike-h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Kelpt Sans B2 Extra Bold';
+    font-size: 25px;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 540px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+}
+
+#soulslike-h2>h2 {
+    margin: 10px;
+    background-color: #1c2129;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+}
+
+
 .destaque-column:hover .overlay-game {
     opacity: 1;
 }
@@ -326,6 +396,26 @@ nav {
     top: 30px;
 }
 
+.overlay-ds {
+    left: 46px;
+    top: 30px;
+}
+
+.overlay-jedi {
+    left: 18px;
+    top: 30px;
+}
+
+.overlay-hifi {
+    left: 68px;
+    top: 30px;
+}
+
+.overlay-indiana {
+    left: -14px;
+    top: 30px;
+}
+
 .overlay-game .text-game {
     color: white;
     font-size: 20px;
@@ -333,6 +423,10 @@ nav {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.acao-aventura-column:hover .overlay-game {
+    opacity: 1;
 }
 
 #cadastro {

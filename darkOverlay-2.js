@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('.destaque-column .jogo, .lançamentos-column .jogo, .bem-avaliados-column .jogo');
+const images = document.querySelectorAll('.destaque-column .jogo, .lançamentos-column .jogo, .bem-avaliados-column .jogo, .acao-aventura-column .jogo');
 const listWindow = document.querySelector('.listWindowOpen');
 const darkOverlay = document.getElementById('dark-overlay');
 

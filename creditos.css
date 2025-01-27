@@ -104,13 +104,30 @@ main {
 
 .pop-up {
     position: absolute;
-    background-color: #555;
+    background-color: #ffffff;
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 20px;
     display: none;
     animation: showFunctions 0.3s ease-in 0s forwards;
 }
+#funcoes-andre {
+    position: absolute;
+    top: 157px;
+}
+#funcoes-theo {
+    position: absolute;
+    top: 187px;
+}
+#funcoes-wesley {
+    position: absolute;
+    top: 220px;
+}
+#funcoes-vitoria {
+    position: absolute;
+    top: 137px;
+}
+
 
 @keyframes showFunctions {
     from {opacity: 0;}
