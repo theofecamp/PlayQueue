@@ -1,0 +1,5 @@
+CREATE TABLE cadastro (
+    nome_usuario VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(50) NOT NULL,
+    senha VARCHAR(500) NOT NULL UNIQUE
+)
