@@ -73,7 +73,9 @@ body {
     flex-direction: column; 
     height: 100%; 
     background-color: #2c3440; 
-}img {
+}
+
+img {
     width: 50px;
     position: absolute;
     bottom: 90.5%;
@@ -94,6 +96,7 @@ body {
     position: absolute;
     left: 3%;
 }
+
 #top-page-logo > img {
     height: 90px;
     width: 250px;

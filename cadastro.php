@@ -25,7 +25,10 @@
 
         $sql = "INSERT INTO `cadastro` (`nome_usuario`, `email`, `senha`) VALUES ('$username', '$email', '$hashed_password')";
 
-        if (mysqli_query($db, $sql)) echo "<p>$username cadastrado!</p>";
+        if (mysqli_query($db, $sql)) {
+            echo "<p>$username cadastrado!</p>";
+            header("Location: login.html");
+        }
         else echo "<p>ERRO - $username não cadastrado: " . mysqli_error($db) . "</p>";
     }
 ?>
